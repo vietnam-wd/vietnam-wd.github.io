@@ -6,7 +6,7 @@
 
 body {
 
-  background-image: url("https://img.freepik.com/free-photo/asian-woman-wearing-vietnam-culture-traditional-african-fountain-flower-field_335224-845.jpg?t=st=1729053299~exp=1729056899~hmac=56951c5fd2d5c5cd3f5eca40ffb0e52660507e5045259c85656c51dc5b6eb347&w=1380");
+  background-image: url("https://img.freepik.com/free-photo/anime-style-chinese-new-year-celebration-scene_23-2151079939.jpg?t=st=1729222663~exp=1729226263~hmac=6f4516e88a657bc09167b26988736048600bc7e95c17bad86e3b72536aade631&w=1060");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -210,9 +210,10 @@ body {
 
 .cart-page-outside {
   border: 10px solid #fbfbfb;
+  /* background: #fdf0df url("https://img.freepik.com/free-vector/hand-drawn-ethnic-beauty-illustration_23-2150197829.jpg?t=st=1729053012~exp=1729056612~hmac=b397bd5e781f2e79e647f428ed9bce7ebd4255b43526b0c9111bc1d1f2211729&w=740") no-repeat center; */
   
-  background: #fdf0df url("https://img.freepik.com/free-vector/hand-drawn-ethnic-beauty-illustration_23-2150197829.jpg?t=st=1729053012~exp=1729056612~hmac=b397bd5e781f2e79e647f428ed9bce7ebd4255b43526b0c9111bc1d1f2211729&w=740") no-repeat center;
-  background-size: contain;
+  background: #fdf0df url("https://img.freepik.com/premium-photo/vietnamese-womens-day-scene-with-flowers-smiles-ao-dai-dress-festival-background-layout-art-decor_1020495-195478.jpg?w=740") no-repeat center;
+  background-size: cover;
   width: 100%;
   height: 100%;
 }

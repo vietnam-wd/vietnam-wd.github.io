@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8" />
-	<title>Christmas Card</title>
+	<title>Card</title>
 	<meta name="viewport" ;
 		content="width=device-width initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no; target-densityDpi=device-dpi">
 	</meta>
@@ -29,7 +29,7 @@
 
 				<div class="card-page cart-page-front">
 					<div class="card-page cart-page-outside">
-							<p style="padding-top: 120%;padding-left: 10%;font-family: 'Style Script', serif;font-size: 25px; color: #3d4c41;"> Vietnamese Women's day 20-10</p>
+							<p id="title" style="padding-top: 100%;padding-left: 10%;font-family: 'Style Script', serif;font-size: 25px; color: #ffea2f; text-align: center;"> Vietnamese Women's day <br>20-10</p>
 					</div>
 					<div class="card-page cart-page-inside">
 						<!-- <p id="greeting1" class="greeting1" style="padding-top: -80%; padding-bottom: -80%;font-family: 'Style Script', serif;font-size: 25px; color: #3d4c41;">
@@ -84,11 +84,13 @@
 				greeting.style.marginLeft = '10%';
 				greeting.style.marginRight = '10%';
 				if (window.innerWidth < 768) {
-					 greeting.style.fontSize = '12px';
+					greeting.style.fontSize = '12px';
+					 title.style.fontSize = '12px';
 					merryChristmas.style.width = '100%'; 
 					merryChristmas.style.paddingTop = '45%'; 
 				} else if (window.innerWidth < 767) {
 					 greeting.style.fontSize = '12px';
+					 title.style.fontSize = '12px';
 					merryChristmas.style.width = '100%'; 
 					merryChristmas.style.paddingTop = '45%'; 
 				} else {
