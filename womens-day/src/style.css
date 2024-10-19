@@ -5,8 +5,9 @@
 }
 
 body {
-
-  background-image: url("https://img.freepik.com/free-photo/anime-style-chinese-new-year-celebration-scene_23-2151079939.jpg?t=st=1729222663~exp=1729226263~hmac=6f4516e88a657bc09167b26988736048600bc7e95c17bad86e3b72536aade631&w=1060");
+  background-image: url("other/images/background.jpg");
+  
+  /* background-image: url("https://img.freepik.com/free-photo/anime-style-chinese-new-year-celebration-scene_23-2151079939.jpg?t=st=1729222663~exp=1729226263~hmac=6f4516e88a657bc09167b26988736048600bc7e95c17bad86e3b72536aade631&w=1060"); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
